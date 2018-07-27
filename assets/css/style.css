@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #000;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+p#date {
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+p#time {
+	font-weight: bold;
+	margin-top: 5px;
+}
